@@ -1,5 +1,10 @@
 # rtspRecordER
-This script is a tool for recording RTSP streams using Python. It allows for a variety of configurations, including the ability to set the record duration, add timestamps to the recorded files, and automatically clear old recordings. 
+
+This script is a tool for recording RTSP streams using Python. It allows for a variety of configurations, including the ability to set the record duration, add timestamps to the recorded files, and automatically clear old recordings. This script is useful for capturing live video streams from cameras, and can be easily integrated into other projects. The script is well-documented, allowing for easy customization and extension. and setup
+For an option you can use ."vsftpd" package to reach your video records. Please follow the instructions in the README for usage 
+
+Created & tested in RaspberryPi3
+
 
 1 - Download & Unzip Code
 
