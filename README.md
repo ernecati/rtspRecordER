@@ -43,6 +43,8 @@ force_dot_files=YES
 
 local_root=your/video/directory *ie:/home/pi/Desktop/rtspSave*
 
+3.3 - Run the FTP server 
+
 4 - Edit & Configure Codes
 
 4.1 - RTSP Connection Settings
@@ -69,3 +71,11 @@ restartTime = 1 #System will restart if any error occures! (minute)
 5 - Run Codes
 sudo python rstpRecorder.py
 
+6- Make everything "autostart"
+sudo nano /home/pi/.bashrc #edit bashrc and add the lines below
+sudo service vsftpd restart
+sudo python /home/pi/Desktop/rtspRecorER/rtspRecorder.py
+
+save & exit
+
+sudo reboot #reboot pc
